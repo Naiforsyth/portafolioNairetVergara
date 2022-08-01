@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Formulario de regis de usuario de la libreria POP">
+  <meta name="keywords" content="libros, libreria, POP, lectura, leer, comprar">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/5cb7d34bd7.js" crossorigin="anonymous"></script>
+
+  <!-- Link Bootstrap -->
+  <link rel="stylesheet" href="./../assests/css/bootstrap.min.css">
+
+  <!-- Link style CSS -->
+  <link rel="stylesheet" href="./../assests/css/estilos.css">
+  <title>Registro</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo" href="./../index.html"><img class="logo" src="./../assests/img/popLogo.png"
+            alt="Logo POP Libreria"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fas fa-bars menu__ham"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products.html">productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mi cuenta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                <li><a class="dropdown-item" href="./register.html">Registro</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fas fa-shopping-cart icon" href="./cart.html"> </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Main -->
+  <main>
+    <section class="heading reg">
+      <h1>registro</h1>
+      <p><a href="./../index.html">home</a> >> registro </p>
+    </section>
+
+    <section class="register">
+
+      <div class="container account__form">
+        <h3>registro usuario</h3>
+        <div class="form-floating col-11">
+          <input type="text" class="form-control" id="floatingInput" placeholder="name">
+          <label for="floatingInput">nombre</label>
+        </div>
+        <div class="form-floating col-11">
+          <input type="mail" class="form-control" id="floatingMail" placeholder="Mail">
+          <label for="floatingMail">Mail</label>
+        </div>
+        <div class="form-floating col-11">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">contraseña</label>
+        </div>
+        <div class="form-floating col-11 ">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">confirma tu contraseña</label>
+        </div>
+        <button type="button" class="btn btn-dark col-10">inciar sesión</button>
+        <a href="./login.html" class="btn col-10">¿ya tienes una cuenta?</a>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="links__container">
+      <div class="links">
+        <h3 class="links__title">POP Librería</h3>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./../index.html">home</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./products.html">productos</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./about.html">nosotros</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./contact.html">contacto</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./login.html">login</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./register.html">registro</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./cart.html">mi compra</a></li>
+
+      </div>
+
+      <div class="links social">
+        <h3 class="links__title">Síguenos</h3>        
+          <li><i class="fa-brands fa-facebook-f"></i><a href="#"> Facebook</a></li>
+          <li><i class="fa-brands fa-twitter"></i><a href="#"> Twitter</a></li>
+          <li><i class="fa-brands fa-instagram"></i><a href="#"> Instagram</a></li>
+          <li><i class="fa-brands fa-pinterest"></i><a href="#"> Pinterest</a></li>      
+      </div>
+
+      <div class="footer__form">
+        <h3 class="footer__form__title">Newsletter</h3>
+        <p class="footer__form__content">Suscríbete para recibir nuestras noticias</p>
+        <form action="">
+          <input type="email" placeholder="correo electronico">
+          <input class="btn--form" type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Bootstrap -->
+  <script src="./../assests/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

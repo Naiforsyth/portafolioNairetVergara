@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Productos de la libreria POP">
+  <meta name="keywords" content="libros, libreria, POP, lectura, leer, comprar">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/5cb7d34bd7.js" crossorigin="anonymous"></script>
+
+  <!-- Link Bootstrap -->
+  <link rel="stylesheet" href="./../assests/css/bootstrap.min.css">
+
+  <!-- Link style CSS -->
+  <link rel="stylesheet" href="./../assests/css/estilos.css">
+  <title>Productos</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo" href="./../index.html"><img class="logo" src="./../assests/img/popLogo.png"
+            alt="Logo POP Libreria"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fas fa-bars menu__ham"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products.html">productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mi cuenta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                <li><a class="dropdown-item" href="./register.html">Registro</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fas fa-shopping-cart icon" href="./cart.html"> </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main -->
+  <main>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./../assests/img/banner1.png" class="d-flex w-100" alt="oferta text books 50% off">
+        </div>
+        <div class="carousel-item">
+          <img src="./../assests/img/banner3.png" class="d-flex w-100"
+            alt="vuelta al colegio deposito de libros, menos un 50% en libros de texto">
+        </div>
+        <div class="carousel-item">
+          <img src="./../assests/img/banner2.png" class="d-flex w-100"
+            alt="welcome,the best adventure of our life stars here, we are excited to have you whith us">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="heading">
+      <h1>productos</h1>
+      <p><a href="./../index.html">home</a> >> productos </p>
+    </section>
+
+    <section class="products">
+      <div class="container">
+
+        <div class="card">
+          <img src="./../assests/img/producto1.jpg" class="card-img-top"
+            alt="portada del libro todas las hadas del reino de laura gallego">
+          <div class="card-body">
+            <h5 class="card-title">todas las hadas del reino</h5>
+            <p class="card-text">laura gallego</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto2.jpg" class="card-img-top"
+            alt="portada del libro the good guy de mark mcallister">
+          <div class="card-body">
+            <h5 class="card-title">the good guy</h5>
+            <p class="card-text">mark mcallister</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto3.jpg" class="card-img-top"
+            alt="portada del libro de la tristeza de gabriel ebensperger">
+          <div class="card-body">
+            <h5 class="card-title">libro de la tristeza</h5>
+            <p class="card-text">gabriel ebensperger</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto4.jpg" class="card-img-top"
+            alt="portada del libro don quijote de miguel de cervantes">
+          <div class="card-body">
+            <h5 class="card-title">don quijote</h5>
+            <p class="card-text">miguel de cervantes</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto5.jpg" class="card-img-top"
+            alt="portada del libro alice's adventure in wonderland de lewis carroll">
+          <div class="card-body">
+            <h5 class="card-title"> alice's adventure in wonderland</h5>
+            <p class="card-text">lewis carroll</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto6.jpg" class="card-img-top"
+            alt="portada del libro amor y guerra de iamsteef">
+          <div class="card-body">
+            <h5 class="card-title">amor y guerra</h5>
+            <p class="card-text">iamsteef</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto7.jpg" class="card-img-top"
+            alt="portada del libro orgullo y prejucio de jane austin">
+          <div class="card-body">
+            <h5 class="card-title">orgullo y prejucio</h5>
+            <p class="card-text">jane austin</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto8.jpg" class="card-img-top"
+            alt="portada del libro mujeres y poder de mary beard">
+          <div class="card-body">
+            <h5 class="card-title">mujeres y poder</h5>
+            <p class="card-text">mary beard</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto9.jpg" class="card-img-top"
+            alt="portada del libro la sombra del viento de carlos ruiz zafon">
+          <div class="card-body">
+            <h5 class="card-title">la sombra del viento</h5>
+            <p class="card-text">carlos ruiz zafon</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto10.jpg" class="card-img-top"
+            alt="portada del libro el diario de ana frank">
+          <div class="card-body">
+            <h5 class="card-title">el diario de ana frank</h5>
+            <p class="card-text">ana frank</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./../assests/img/producto11.jpg" class="card-img-top"
+            alt="portada del libro fahrenhei 451 de ray bradbury">
+          <div class="card-body">
+            <h5 class="card-title">fahrenhei 451</h5>
+            <p class="card-text">ray bradbury</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./../assests/img/producto12.jpg" class="card-img-top"
+            alt="portada del libro el visitante de stephen king">
+          <div class="card-body">
+            <h5 class="card-title">el visitante </h5>
+            <p class="card-text">stephen king</p>
+            <div class="card__starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="links__container">
+      <div class="links">
+        <h3 class="links__title">POP Librería</h3>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./../index.html">home</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./products.html">productos</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./about.html">nosotros</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./contact.html">contacto</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./login.html">login</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./register.html">registro</a></li>
+        <li>
+        <li><i class="fa-solid fa-angle-right"></i><a href="./cart.html">mi compra</a></li>
+      </div>
+
+      <div class="links social">
+        <h3 class="links__title">Síguenos</h3>
+        <li><i class="fa-brands fa-facebook-f"></i><a href="#"> Facebook</a></li>
+        <li><i class="fa-brands fa-twitter"></i><a href="#"> Twitter</a></li>
+        <li><i class="fa-brands fa-instagram"></i><a href="#"> Instagram</a></li>
+        <li><i class="fa-brands fa-pinterest"></i><a href="#"> Pinterest</a></li>
+      </div>
+
+      <div class="footer__form">
+        <h3 class="footer__form__title">Newsletter</h3>
+        <p class="footer__form__content">Suscríbete para recibir nuestras noticias</p>
+        <form action="">
+          <input type="email" placeholder="correo electronico">
+          <input class="btn--form" type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Bootstrap -->
+  <script src="./../assests/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

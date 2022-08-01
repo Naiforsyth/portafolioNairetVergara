@@ -1,0 +1,40 @@
+$estiloBtn: (
+  dispo: inline-block,
+  relleno: .5rem 2rem,
+  tamanoFuente: 1.6rem,
+  colorFuente: #333,
+  borde: .1rem solid #333,
+  fondo: none,
+  mouse: pointer,
+  bordeRedondo: .5rem,
+  decoracion: none,
+  margen: 1rem
+); 
+
+.btn {
+  display: map-get($map: $estiloBtn, $key:dispo);
+  padding:map-get($map: $estiloBtn, $key:relleno);
+  font-size: map-get($map: $estiloBtn, $key:tamanoFuente);
+  color: map-get($map: $estiloBtn, $key:colorFuente);
+  border: map-get($map: $estiloBtn, $key:borde);
+  background: map-get($map: $estiloBtn, $key: fondo);
+  cursor: map-get($map: $estiloBtn, $key: mouse);
+  border-radius: map-get($map: $estiloBtn, $key: bordeRedondo);
+  text-decoration: map-get($map: $estiloBtn, $key: decoracion);
+  margin: map-get($map: $estiloBtn, $key: margen);
+}
+
+
+.btn--about{
+  @extend .btn;
+  padding: .8rem 2rem;
+  margin: 2rem;  
+}
+
+.btn--form{
+  @extend .btn;
+  padding: .5rem 1rem;
+  margin: 2rem; 
+  font-size: 1rem;
+}
+
