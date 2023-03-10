@@ -1,0 +1,67 @@
+[{
+    "id": 1,
+    "imagen": "./assets/img/menu-1.jpg",
+    "nombre": "Cafe con leche",
+    "precio": 15
+  },
+  {
+    "id": 2,
+    "imagen": "./assets/img/menu-2.jpg",
+    "nombre": "Lagrima",
+    "precio": 10
+  },
+  {
+    "id": 3,
+    "imagen": "./assets/img/menu-3.jpg",
+    "nombre": "Cafe Americano",
+    "precio": 15
+  },
+  {
+    "id": 4,
+    "imagen": "./assets/img/menu-4.jpg",
+    "nombre": "Cafe Expreso",
+    "precio": 10
+  },
+  {
+    "id": 5,
+    "imagen": "./assets/img/menu-5.jpg",
+    "nombre": "Medialuna",
+    "precio": 100
+  },
+  {
+    "id": 6,
+    "imagen": "./assets/img/menu-6.jpg",
+    "nombre": "Medialuna con jamon y queso",
+    "precio": 250
+  }, 
+  {
+    "id": 7,
+    "imagen": "./assets/img/menu-7.jpg",
+    "nombre": "Croissant",
+    "precio": 150
+  }, 
+  {
+    "id": 8,
+    "imagen": "./assets/img/menu-8.jpg",
+    "nombre": "Croissant con dulce de leche",
+    "precio": 400
+  },
+  {
+    "id": 9,
+    "imagen": "./assets/img/menu-9.jpg",
+    "nombre": "Scon de queso",
+    "precio": 350
+  },
+  {
+    "id": 10,
+    "imagen": "./assets/img/menu-10.jpg",
+    "nombre": "Waflle con helado y frutas de estacion",
+    "precio": 500
+  },
+  {
+    "id": 11,
+    "imagen": "./assets/img/menu-11.jpg",
+    "nombre": "Waflle con dulce de leche y salsa de chocolate",
+    "precio": 600
+  }
+]
